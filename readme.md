@@ -21,21 +21,26 @@ const {
   reverseString,
   randomInRange
 } = require('your-package-name');
+```
 
-#Custom Array Methods
+## Custom Array Methods
 #These methods are added to the Array prototype and can be used on any array.
 
-#`customMap(callback)`
-#Signature: Array.prototype.customMap = function(callback)
+# `customMap(callback)`
+ - Signature: Array.prototype.customMap = function(callback)
 
+```bash
 const numbers = [1, 2, 3, 4];
 const doubled = numbers.customMap(x => x * 2);
 console.log(doubled); // Output: [2, 4, 6, 8]
+```
 
 
-`customFilter(callback)`
-Signature: Array.prototype.customFilter = function(callback)
+## `customFilter(callback)`
+ - Signature: Array.prototype.customFilter = function(callback)
 
+```bash
 const numbers = [1, 2, 3, 4, 5];
 const evenNumbers = numbers.customFilter(x => x % 2 === 0);
 console.log(evenNumbers); // Output: [2, 4]
+```
