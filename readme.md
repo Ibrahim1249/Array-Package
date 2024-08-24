@@ -4,11 +4,15 @@ This package provides custom implementations of common array methods and some ut
 
 ## Installation
 
-Install the package using npm:
+Install the package using npm: install array-utility-package
 
 ```bash
 npm install array-utility-package
+```
 
+## Usage
+
+```bash
 const {
   customMap,
   customFilter,
