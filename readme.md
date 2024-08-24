@@ -22,11 +22,11 @@ const {
   randomInRange
 } = require('your-package-name');
 
-Custom Array Methods
-These methods are added to the Array prototype and can be used on any array.
+#Custom Array Methods
+#These methods are added to the Array prototype and can be used on any array.
 
-`customMap(callback)`
-Signature: Array.prototype.customMap = function(callback)
+#`customMap(callback)`
+#Signature: Array.prototype.customMap = function(callback)
 
 const numbers = [1, 2, 3, 4];
 const doubled = numbers.customMap(x => x * 2);
